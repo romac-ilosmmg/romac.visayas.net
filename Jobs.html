@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Romac Visayas Inc. - Job Vacancies</title>
+    <!--Bootstrap Integration-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--External Styling Link-->
+    <link rel="stylesheet" href="Jobs.css">
+</head>
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg custom-navbar">
+    <div class="container">
+    
+    <!--Navagation Bar Logo-->
+    <a class="navbar-brand" href="Homepage.html">
+        <img src="Images/RomacLogo2.png" alt="Logo" width="195" height="auto">
+    </a>
+
+    <!--Navigation Bar Toggler for Mobile-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!--Navigationbar Links-->
+    <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="Homepage.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="About.html">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="Services.html">Our Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="Jobs.html">Job Vacancies</a></li>
+            <li class="nav-item"><a class="nav-link" href="Management.html">Management</a></li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="Contacts.html" id="contactDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contact Us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="contactDropdown">
+            <li><a class="dropdown-item" href="Contacts.html">Contact Forms</a></li>
+            <li><a class="dropdown-item" href="">Branches</a></li>
+            </ul>
+            </li>
+        </ul>
+    </div>
+    </div>
+    </nav>
+
+    <!-- Header Image Section -->
+    <section class="header-image-section">
+    <img src="Images/Careers3.jpg" alt="Header Image" class="img-fluid w-100">
+    </section>
+
+   <section class="py-5">
+  <div class="container text-center">
+    <h2 class="section-title">Browse our job category anywhere in our branches</h2>
+    <p class="section-subtitle">Find the jobs that’s perfect for you here at Romac</p>
+
+    <div class="row g-4">
+      <!-- Card 1 -->
+      <div class="col-md-6 col-lg-6">
+        <div class="job-card text-start">
+          <h4>IloIlo City</h4>
+          <p>200 Jobs Available</p>
+          <button class="job-btn" onclick="window.open('Iloilo.html', '_blank')">Check Job Vacancies</button>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-6 col-lg-6">
+        <div class="job-card text-start">
+          <h4>Bacolod City</h4>
+          <p>10 Job Availables</p>
+          <button class="job-btn" id="showBoxBtn">Check Job Vacancies</button>
+        </div>
+      </div>
+
+      <div class="cookie-card">
+    <span class="title">A friendly message</span>
+    <p class="description">
+      This is under development thank you.
+    </p>
+    <div class="actions">
+      <button class="pref">Manage your preferences</button>
+      <button class="accept">Accept</button>
+    </div>
+  </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-6 col-lg-6">
+        <div class="job-card text-start">
+          <h4>Boracay</h4>
+          <p>50 Jobs Available</p>
+          <button class="job-btn" id="showBoxBtn">Check Job Vacancies</button>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-md-6 col-lg-6">
+        <div class="job-card text-start">
+          <h4>Cebu City</h4>
+          <p>90 Jobs Available</p>
+          <button class="job-btn" id="showBoxBtn">Check Job Vacancies</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="card">
+  <div class="header">
+    <div class="image">
+      <svg
+        aria-hidden="true"
+        stroke="currentColor"
+        stroke-width="1.5"
+        viewBox="0 0 24 24"
+        fill="none"
+      >
+        <path
+          d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"
+          stroke-linejoin="round"
+          stroke-linecap="round"
+        ></path>
+      </svg>
+    </div>
+    <div class="content">
+      <span class="title">Deactivate account</span>
+      <p class="message">
+        Are you sure you want to deactivate your account? All of your data will
+        be permanently removed. This action cannot be undone.
+      </p>
+    </div>
+    <div class="actions">
+      <button class="desactivate" type="button">Deactivate</button>
+      <button class="cancel" type="button">Cancel</button>
+    </div>
+  </div>
+</div>
+
+ <!--Footer-->
+    <footer class="footer-custom pt-5 pb-4">
+      <div class="container">
+      <div class="row">
+      <!-- Image + Copyright -->
+      <div class="col-md-4 mb-4 text-center text-md-start">
+        <img src="Images/RomacLogo2.png" alt="Company Logo" class="img-fluid mb-3">
+        <p class="small mb-0">&copy; 2025 Romac Visayas Inc. All rights reserved.</p>
+      </div>
+
+    <!-- Office Info Grid -->
+    <div class="col-md-8">
+      <div class="row">
+        <!-- Office 1 -->
+        <div class="col-sm-6 mb-4">
+          <h5 class="fw-bold">IloIlo Office</h5>
+          <p class="mb-1">251-A General Hughes, St. IloIlo City</p>
+          <p class="mb-1">Tel/Fax No: (033) 335-5200</p>
+          <p class="mb-0">Cellphone Number: 0933 874 9921</p>
+        </div>
+        <!-- Office 2 -->
+        <div class="col-sm-6 mb-4">
+          <h5 class="fw-bold">Bacolod Office</h5>
+          <p class="mb-1">Room 300B Silos Building, San Juan St. Bacolod City</p>
+          <p class="mb-1">Tel/Fax No: (034) 709-0791</p>
+          <p class="mb-0">Cellphone Number: 0933 874 9918</p>
+        </div>
+        <!-- Office 3 -->
+        <div class="col-sm-6 mb-4">
+          <h5 class="fw-bold">Boracay Office</h5>
+          <p class="mb-1">Unit I & II, Pardico Hill, Traders, Hagdan Brgy. Yapak, Malay, Aklan</p>
+          <p class="mb-1">Tel/Fax No: (036) 506-2026</p>
+          <p class="mb-0">Cellphone Number: 0947 891 0286</p>
+        </div>
+        <!-- Office 4 -->
+        <div class="col-sm-6 mb-4">
+          <h5 class="fw-bold">Cebu Office</h5>
+          <p class="mb-1">3F Unit A. Del Rosario St. Guizo, Mandaue City, Cebu</p>
+          <p class="mb-1">Tel/Fax No: (034) 456-7890</p>
+          <p class="mb-0">Cellphone Number: 0933 444 5555</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+    
+    <!--Javascript CDN Integration-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
